@@ -12,9 +12,9 @@ changed line 21 -    static JComboBox<String> cBox1; \
 \
 line 43 -    cBox1 = new JComboBox(s1);  \
 changed line 43 -    
-'''
+```
 cBox1 = new JComboBox<String>(s1); 
-'''
+```
 \
 **What caused it to stop working?**\
 ComboBox needs to be initialized with a generic object type.
