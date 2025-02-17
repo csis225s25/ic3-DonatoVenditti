@@ -5,9 +5,12 @@
 *  @version Spring 2010 
 */
 
-import java.awt.event.*;
-import java.awt.*;
-import javax.swing.*;
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
+import java.awt.FlowLayout;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JComboBox
 
 class ComboBoxDemo extends JFrame implements ItemListener {
 
