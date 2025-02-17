@@ -14,4 +14,4 @@ line 43 -    cBox1 = new JComboBox<String>(s1);  \
 changed line 43 -    cBox1 = new JComboBox<String>(s1); \
 \
 **What caused it to stop working?**\
-ComboBox needs to be initialized with a generic object type.\
+ComboBox needs to be initialized with a generic object type.
