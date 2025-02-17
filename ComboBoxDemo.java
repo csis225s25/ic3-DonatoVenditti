@@ -40,11 +40,9 @@ class ComboBoxDemo implements ItemListener {
 
 		// set layout of frame
 		frame.setLayout(new FlowLayout());
-
-		String s1 = new String[5];
 		
 		// array of string containing cities
-		s1[] = { "Albany", "Schenectady", "Troy", "Glens Falls", "Catskill" };
+		String s1[] = { "Albany", "Schenectady", "Troy", "Glens Falls", "Catskill" };
 
 		// create checkbox
         cBox1 = new JComboBox(s1);
