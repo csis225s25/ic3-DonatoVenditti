@@ -14,7 +14,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JComboBox;
 
-class ComboBoxDemo extends JFrame implements ItemListener {
+class ComboBoxDemo implements ItemListener {
 
 	// frame
 	static JFrame frame;
